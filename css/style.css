@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+ul,
+ol,
+a,
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #e1e1e1;
+    overflow-x: hidden;
+}
+
+
+/*==============================
+		Common css end
+================================*/
+
+.contact_col { 
+    background: #113f5a;
+    padding: 20px 0;
+    padding-bottom: 40px;
+}
+
+.contact_col .image {
+    width: 260px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.logo_image{
+    height: 300px;
+}
+
+.contact_col .image img {
+    border-radius: 50%;
+}
+
+.contact_col .name {
+    margin-top: 30px;
+    background: #162f3b;
+}
+
+.contact_col .name h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #e1e1e1;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px 0;
+}
+
+.contact_col .address {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact_col .address h4 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #e1e1e1;
+    text-align: center;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+.contact_col .address p {
+    color: #e1e1e1;
+    text-align: center;
+    font-style: italic;
+}
+
+.contact_col .address span {
+    display: block;
+    padding-bottom: 20px;
+}
+
+.contact_col .speakers {
+    margin: 20px 0;
+    margin-top: 40px;
+}
+
+.contact_col .speakers h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #e1e1e1;
+    text-transform: capitalize;
+    background: #162f3b;
+    padding: 15px 0;
+    padding-left: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.contact_col .speakers p {
+    padding-left: 30px;
+}
+
+.contact_col .port {
+    margin: 20px 0;
+    margin-top: 30px;
+}
+
+.contact_col .port h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #e1e1e1;
+    text-transform: capitalize;
+    background: #162f3b;
+    padding: 15px 0;
+    padding-left: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.contact_col .port p {
+    padding-left: 30px;
+}
+
+.contact_col .expartise {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.contact_col .expartise h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #e1e1e1;
+    text-transform: capitalize;
+    background: #162f3b;
+    padding: 15px 0;
+    padding-left: 30px;
+}
+
+.contact_col .expartise p {
+    padding-left: 30px;
+    font-size: 16px;
+    padding-top: 8px;
+    font-style: italic;
+}
+
+.contact_col .statement h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #e1e1e1;
+    text-transform: capitalize;
+    background: #162f3b;
+    padding: 15px 0;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+
+.contact_col .statement p {
+    padding-left: 30px;
+    padding-right: 115px;
+    font-size: 16px;
+    padding-top: 8px;
+    font-style: italic;
+    padding-bottom: 20px;
+    line-height: 28px;
+}
+
+
+/* details col start */
+
+.detail_col {
+    color: #113f5a;
+}
+
+.sec_head {
+    padding: 15px 0;
+    background: #bdd9e0;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #162f3b;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+.sec_para {
+    padding-left: 20px;
+    line-height: 25px;
+    padding-right: 100px;
+}
+
+.cont_head {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #162f3b;
+    text-transform: capitalize;
+    padding-left: 20px;
+    font-style: italic;
+}
+
+.smooth_title {
+    font-weight: 400;
+    font-size: 18px;
+    color: #162f3b;
+    text-transform: capitalize;
+    padding-left: 20px;
+}
+
+.smooth_title span {
+    padding-left: 100px;
+}
+
+.detail_col ul {
+    list-style: disc;
+    padding-left: 80px;
+    padding-bottom: 20px;
+}
+
+
+/* px perfect */
+
+.detail_col .personal_summ {
+    margin-bottom: 20px;
+}
+
+.detail_col .personal_summ h3 {
+    margin-bottom: 10px;
+}
+
+.detail_col .career h3 {}
+
+.detail_col .career h4,
+.detail_col .career h5 {
+    padding-bottom: 10px;
+}
+
+.detail_col .extra_curricular {
+    padding: 20px 0;
+}
+
+.detail_col .extra_curricular .smooth_title {
+    padding-bottom: 15px;
+}
+
+.detail_col .key_skills .sec_head {
+    margin-bottom: 10px;
+}
+
+.detail_col .key_skills .cont_head {
+    padding-left: 60px;
+    padding-bottom: 5px;
+}
+
+.detail_col .academatic .cont_head {
+    padding-top: 10px;
+    padding-bottom: 2px;
+}
+
+.detail_col .academatic .sec_head {
+    margin-top: 15px;
+}
+
+.detail_col .reference .sec_head {
+    margin-top: 25px;
+}
+
+.detail_col .reference ul li span {
+    padding-left: 20px;
+    display: block;
+}
+
+.detail_col .reference ul {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    width: 80%;
+}
+
+.detail_col .reference ul li {
+    padding-bottom: 20px;
+}
+
+.detail_col .reference ul li p {
+    padding-left: 20px;
+    font-style: italic;
+}
